@@ -1,4 +1,11 @@
 <?php
+/**
+ * Copyright (c) 2019 Ponomarev Studio.
+ *
+ * https://Ponomarev.Studio
+ *
+ * @author Vladislav Ponomarev <Git@PonomareVlad.ru>
+ */
 
 $order = json_decode(file_get_contents('php://input'), true);
 
