@@ -1,0 +1,20 @@
+{
+  "name": "PISOS",
+  "scope": "ponomarevlad",
+  "regions": [
+    "arn1"
+  ],
+  "builds": [
+    {
+      "src": "index.php",
+      "use": "@now/php"
+    }
+  ],
+  "env": {
+    "API_AUTH": "@cotton-baby-insales-api-auth",
+    "API_URL": "@cotton-baby-insales-api-url"
+  },
+  "github": {
+    "silent": true
+  }
+}
