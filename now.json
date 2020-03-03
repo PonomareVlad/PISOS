@@ -7,7 +7,7 @@
   "builds": [
     {
       "src": "index.php",
-      "use": "@now/php"
+      "use": "now-php",
     }
   ],
   "env": {
